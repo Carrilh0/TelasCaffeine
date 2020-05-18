@@ -1,0 +1,20 @@
+.first-nav .navbar-brand .navbar-item{
+    padding: 7px 0 12px 25px;
+}
+.first-nav .navbar-brand .navbar-item img{
+    max-width: unset;
+    max-height: unset;
+}
+
+.first-nav .navbar-end .textos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.first-nav .navbar-end .textos p{
+
+}
+.first-nav .navbar-end .textos{
+    display: flex;
+    flex-direction: column;
+}
