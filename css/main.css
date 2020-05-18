@@ -1,20 +1,55 @@
+.first-nav .navbar-brand .navbar-item {
+   padding: 7px 0 12px 25px;
+}
+.first-nav .navbar-brand .navbar-item img {
+   max-width: unset;
+   max-height: unset;
+}
+
+.first-nav .navbar-end .textos {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+}
+.first-nav .navbar-end .textos p {
+}
+.first-nav .navbar-end .textos {
+   display: flex;
+   flex-direction: column;
+}
+
 .title-section {
    display: flex;
    flex-direction: column;
    text-align: center;
+   align-items: center;
+   justify-content: center;
 }
 .title {
-   line-height: 2px;
+   line-height: 20px;
 }
 .title h3 {
-   font-weight: 500;
+   font-weight: 350;
    text-align: center;
    color: #2d1f00;
    font-size: 44px;
    opacity: 1;
 }
-
 .title p {
    font-size: 19px;
    color: #2d1f00;
+}
+
+.content {
+   display: flex;
+   margin-top: 10%;
+   align-items: center;
+   justify-content: center;
+}
+
+.content .nav-item {
+   display: flex;
+}
+
+.navbar-item {
 }
