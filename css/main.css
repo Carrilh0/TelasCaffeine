@@ -1,3 +1,7 @@
+body {
+   font-family: 'roboto', Arial, Helvetica, sans-serif;
+}
+
 .first-nav .navbar-brand .navbar-item {
    padding: 7px 0 12px 25px;
 }
@@ -49,7 +53,12 @@
 
 .content .nav-item {
    display: flex;
+   padding: 10px 0 10px;
+   box-shadow: rgba(0, 0, 0, 1);
 }
 
-.navbar-item {
+.content .nav-item img {
+   width: 20px;
+   height: 20px;
+   margin-right: 10px;
 }
