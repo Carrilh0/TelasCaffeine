@@ -40,3 +40,39 @@ body{
     display: flex;
     flex-direction: column;
 }
+
+.title-section {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+}
+.title {
+   line-height: 20px;
+}
+.title h3 {
+   font-weight: 350;
+   text-align: center;
+   color: #2d1f00;
+   font-size: 44px;
+   opacity: 1;
+}
+.title p {
+   font-size: 19px;
+   color: #2d1f00;
+}
+
+.content {
+   display: flex;
+   margin-top: 10%;
+   align-items: center;
+   justify-content: center;
+}
+
+.content .nav-item {
+   display: flex;
+}
+
+.navbar-item {
+}
