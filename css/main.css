@@ -62,3 +62,7 @@ body {
    height: 20px;
    margin-right: 10px;
 }
+
+.content .nav-item p {
+   width: 30%;
+}
