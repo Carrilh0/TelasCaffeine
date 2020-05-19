@@ -45,13 +45,12 @@ body {
 
 .container {
    display: flex;
-   flex: 1;
+   margin-top: 150px;
 }
 
 .content {
    display: flex;
    flex: 1;
-   margin-top: 10%;
    align-items: center;
 }
 

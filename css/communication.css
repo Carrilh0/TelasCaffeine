@@ -11,7 +11,7 @@
    border: 1px solid #c1c1c1;
    border-radius: 50%;
    opacity: 1;
-   margin-right: 10px;
+   margin-right: 15px;
 }
 
 .list-communication input:checked {
@@ -27,6 +27,13 @@
    color: blue;
 }
 
+.title-main {
+   display: flex;
+   flex-direction: initial;
+   align-items: flex-start;
+   margin-bottom: 50px;
+}
+
 .content-communication {
    display: flex;
    flex-direction: column;
@@ -36,7 +43,19 @@
    font-weight: bold;
    font-size: 18px;
    color: #414141;
+
 }
 .content-communication p {
+   margin-top: 5px;
+   font-weight: 300;
    font-size: 16px;
+   color: #888888;
+}
+
+.button {
+   font-weight: bold;
+   font-size: 12px;
+   color #ffff;
+   width: 20%;
+   height: 30px;
 }
