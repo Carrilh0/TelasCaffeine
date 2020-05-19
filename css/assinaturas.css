@@ -1,0 +1,65 @@
+.container {
+   display: flex;
+   flex: 1;
+}
+
+.list-assinaturas {
+   display: flex;
+   flex-direction: column;
+   align-items: baseline;
+   width: 30%;
+   margin-right: 20%;
+}
+
+.list-assinaturas strong {
+   font-weight: bold;
+   color: #414141;
+   opacity: 1;
+}
+
+.list-assinaturas p {
+   font-size: 14px;
+}
+
+.list-assinaturas a {
+   color: #00b359;
+   opacity: 1;
+   text-decoration: underline;
+}
+
+.list-assinaturas .list-title img {
+   height: 30px;
+   width: 30px;
+}
+
+.list-historico {
+   display: flex;
+   flex-direction: column;
+   align-items: baseline;
+   width: 30%;
+}
+
+.list-title {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 40%;
+}
+.list-title strong {
+   font-size: 20px;
+   margin-left: 5px;
+   letter-spacing: 0px;
+   color: #414141;
+   opacity: 1;
+}
+
+.kit {
+   justify-content: center;
+   margin-bottom: 20px;
+}
+
+.kit p {
+   font-size: 18px;
+   color: #414141;
+   opacity: 1;
+}

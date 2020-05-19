@@ -1,0 +1,42 @@
+.list-communication li {
+   display: flex;
+   justify-content: baseline;
+   align-items: baseline;
+   padding: 5px 0 5px;
+   margin-bottom: 30px;
+}
+
+.list-communication input {
+   background: #f8f8f8 0% 0% no-repeat padding-box;
+   border: 1px solid #c1c1c1;
+   border-radius: 50%;
+   opacity: 1;
+   margin-right: 10px;
+}
+
+.list-communication input:checked {
+   background: blue 0% 0% no-repeat padding-box;
+   counter-reset: blue;
+   border: 1px solid #c1c1c1;
+   border-radius: 10%;
+   opacity: 1;
+   margin-right: 10px;
+}
+
+.list-communication input:checked ::after {
+   color: blue;
+}
+
+.content-communication {
+   display: flex;
+   flex-direction: column;
+}
+
+.content-communication strong {
+   font-weight: bold;
+   font-size: 18px;
+   color: #414141;
+}
+.content-communication p {
+   font-size: 16px;
+}
