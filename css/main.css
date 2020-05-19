@@ -15,8 +15,7 @@ body {
    flex-direction: column;
    align-items: flex-end;
 }
-.first-nav .navbar-end .textos p {
-}
+
 .first-nav .navbar-end .textos {
    display: flex;
    flex-direction: column;
@@ -46,15 +45,15 @@ body {
 
 .content {
    display: flex;
+   flex: 1;
    margin-top: 10%;
    align-items: center;
-   justify-content: center;
 }
 
 .content .nav-item {
    display: flex;
    padding: 10px 0 10px;
-   box-shadow: rgba(0, 0, 0, 1);
+   align-items: center;
 }
 
 .content .nav-item img {
@@ -62,7 +61,82 @@ body {
    height: 20px;
    margin-right: 10px;
 }
+.content .nav-item a {
+   text-decoration: none;
+   color: #414141;
+}
 
 .content .nav-item p {
-   width: 30%;
+   color: #414141;
+}
+
+.content-perfil {
+   display: flex;
+   align-items: center;
+   width: 40%;
+}
+
+.content-password {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+}
+.content-password .third-column {
+   display: flex;
+   flex-direction: column;
+}
+.perfil-columns {
+   width: 100%;
+   margin-left: 10%;
+   height: 204px;
+}
+
+.Title-content-perfil {
+   display: flex;
+   justify-content: space-around;
+}
+
+.column .frist-column {
+   display: flex;
+   flex-direction: column;
+}
+.second-column {
+   padding-left: 8px;
+   display: flex;
+   flex-direction: row;
+}
+.column .grow {
+   display: flex;
+   flex-direction: column;
+}
+
+.column .grow input {
+   width: 80%;
+}
+
+.inputGROW {
+   padding: 5px 5px 5px 5px;
+   width: 215px;
+   height: 30px;
+   border: 1px solid #d3d3d3;
+   border-radius: 7px;
+   opacity: 1;
+}
+label {
+   margin-top: 5px;
+}
+
+.uptade-button {
+   font-weight: bold;
+   font-size: 15px;
+   justify-content: center;
+   margin-top: 50px;
+   color: #ffff;
+   width: 150px;
+   height: 40px;
+}
+
+.alterar {
+   display: flex;
 }
