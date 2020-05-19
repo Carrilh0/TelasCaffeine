@@ -19,9 +19,48 @@ body {
    max-height: unset;
 }
 
+.first-nav .textos {
+   color: #fff;
+   text-align: right;
+   padding: 10px 25px;
+   line-height: 17px;
+}
+.first-nav .textos p {
+   font-weight: 600;
+   font-size: 14px;
+}
+.first-nav .textos span {
+   font-size: 12px;
+   font-weight: 100;
+}
+.first-nav .textos a {
+   color: #fff;
+   border-bottom: 1px solid #fff;
+}
+
 .first-nav .navbar-end .textos {
    display: flex;
    flex-direction: column;
+}
+
+/* END NAVBAR 1 FRETE GRATIS */
+
+/* NAVBAR 2 PRODUTO */
+.second-nav .navbar-brand {
+   padding: 7px 0 12px 25px;
+   position: absolute;
+}
+.second-nav .navbar-brand img {
+   max-width: unset;
+   max-height: unset;
+}
+
+.second-nav .navbar-start {
+   flex: 1;
+   justify-content: center;
+}
+.second-nav .navbar-start .navbar-item {
+   padding: 20px;
 }
 .second-nav .navbar-start a {
    font-size: 18px;
