@@ -19,6 +19,11 @@ body{
     max-height: unset;
 }
 
+<<<<<<< HEAD
+.first-nav .navbar-end .textos {
+   display: flex;
+   flex-direction: column;
+=======
 .first-nav .textos{
     color: #fff;
     text-align: right;
@@ -63,6 +68,7 @@ body{
 .second-nav .navbar-start .navbar-item{
     padding: 20px
     
+>>>>>>> f9316fd34ce30f5d729b97eef02dfdc970e1c931
 }
 .second-nav .navbar-start a{
     font-size: 18px;
@@ -108,21 +114,104 @@ body{
    color: #2d1f00;
 }
 
+.container {
+   display: flex;
+   margin-top: 150px;
+}
+
 .content {
    display: flex;
-   margin-top: 10%;
+   flex: 1;
    align-items: center;
-   justify-content: center;
 }
 
 .content .nav-item {
    display: flex;
    padding: 10px 0 10px;
-   box-shadow: rgba(0, 0, 0, 1);
+   align-items: center;
 }
 
 .content .nav-item img {
    width: 20px;
    height: 20px;
    margin-right: 10px;
+}
+.content .nav-item a {
+   text-decoration: none;
+   color: #414141;
+}
+
+.content .nav-item p {
+   color: #414141;
+}
+
+.content-perfil {
+   display: flex;
+   align-items: center;
+   width: 40%;
+}
+
+.content-password {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+}
+.content-password .third-column {
+   display: flex;
+   flex-direction: column;
+}
+.perfil-columns {
+   width: 100%;
+   margin-left: 10%;
+   height: 204px;
+}
+
+.Title-content-perfil {
+   display: flex;
+   justify-content: space-around;
+}
+
+.column .frist-column {
+   display: flex;
+   flex-direction: column;
+}
+.second-column {
+   padding-left: 8px;
+   display: flex;
+   flex-direction: row;
+}
+.column .grow {
+   display: flex;
+   flex-direction: column;
+}
+
+.column .grow input {
+   width: 80%;
+}
+
+.inputGROW {
+   padding: 5px 5px 5px 5px;
+   width: 215px;
+   height: 30px;
+   border: 1px solid #d3d3d3;
+   border-radius: 7px;
+   opacity: 1;
+}
+label {
+   margin-top: 5px;
+}
+
+.uptade-button {
+   font-weight: bold;
+   font-size: 15px;
+   justify-content: center;
+   margin-top: 50px;
+   color: #ffff;
+   width: 150px;
+   height: 40px;
+}
+
+.alterar {
+   display: flex;
 }

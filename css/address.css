@@ -1,0 +1,29 @@
+.address {
+   display: flex;
+}
+.title-address {
+   display: flex;
+   justify-content: space-around;
+   align-items: baseline;
+   justify-content: baseline;
+}
+
+.div-title-address {
+   display: flex;
+   justify-content: baseline;
+   align-items: baseline;
+}
+
+.base-input {
+   width: 215px;
+   height: 22px;
+
+   border: 1px solid #d3d3d3;
+   border-radius: 4px;
+   opacity: 1;
+}
+
+.destination {
+   display: flex;
+   flex-direction: column;
+}
