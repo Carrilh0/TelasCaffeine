@@ -6,7 +6,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
    <link href="../css/bulma.css" rel="stylesheet" />
-   <link href="../css/main.css" rel="stylesheet" />
+   <link href="../css/navbars.css" rel="stylesheet" />
    <link href="../css/painel.css" rel="stylesheet" />
    <link href="../css/perfil.css" rel="stylesheet" />
    <title>Document</title>
@@ -150,48 +150,56 @@
                </h3>
             </div>
             <div class="card">
-               <div class="columns">
-                  <div class="column is-6">
-                     <p>E-mail *</p>
-                     <input> 
+               <form>
+                  <div class="columns">
+                     <div class="column is-6">
+                        <p>E-mail *</p>
+                        <input type="email"> 
+                     </div>
+                     <div class="column is-3">
+                        <p>CPF *</p>
+                        <input type="text"> 
+                     </div>
+                     <div class="column is-3">
+                        <p>Data de Nascimento *</p>
+                        <input type="text"> 
+                     </div>
                   </div>
-                  <div class="column is-3">
-                     <p>CPF *</p>
-                     <input> 
+                  <div class="columns">
+                     <div class="column is-6">
+                        <p>Nome *</p>
+                        <input type="text"> 
+                     </div>
+                     <div class="column is-3">
+                        <p>Gênero *</p>
+                        <select name="select">
+                           <option value="valor1">Valor 1</option> 
+                           <option value="valor2" selected>Valor 2</option>
+                           <option value="valor3">Valor 3</option>
+                         </select>
+                     </div>
+                     <div class="column is-3">
+                        <p>Celular *</p>
+                        <input type="text">  
+                     </div>
                   </div>
-                  <div class="column is-3">
-                     <p>Data de Nascimento *</p>
-                     <input> 
+                  <div class="columns">
+                     <div class="column is-6">
+                        <p>Sobrenome *</p>
+                        <input type="text"> 
+                     </div>
+                     <div class="column is-3">
+                        
+                     </div>
+                     <div class="column is-3">
+                        <p>&nbsp</p>
+                        <button> Atualizar</button>
+                     </div>
                   </div>
-               </div>
-               <div class="columns">
-                  <div class="column is-6">
-                     <p>Nome *</p>
-                     <input> 
-                  </div>
-                  <div class="column is-3">
-                     <p>Gênero *</p>
-                     <input> 
-                  </div>
-                  <div class="column is-3">
-                     <p>Celular *</p>
-                     <input> 
-                  </div>
-               </div>
-               <div class="columns">
-                  <div class="column is-6">
-                     <p>Sobrenome *</p>
-                     <input> 
-                  </div>
-                  <div class="column is-3">
-                      
-                  </div>
-                  <div class="column is-3">
-                     <p>&nbsp</p>
-                     <button> Atualizar</button>
-                  </div>
-               </div>
+               </form>
+
             </div>
+
             <div class="title">
                <img src="../img/assets/Resumo do Pedido.png">
                <h3 class="has-text-weight-bold">       
@@ -211,18 +219,20 @@
             </div>
             
             <div class="card">
+               <form>
                <div class="columns">
                   <div class="column is-12">
                      <p>Senha* (Mín. 06 caracteres)</p>
-                     <input> 
+                     <input type="password"> 
                   </div>
                </div>
                <div class="columns">
                   <div class="column is-12">
                      <p>Senha* (Mín. 06 caracteres)</p>
-                     <input> 
+                     <input type="password"> 
                   </div>
                </div>
+            </form>
             </div>
          </div>
 
