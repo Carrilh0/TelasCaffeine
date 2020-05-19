@@ -46,6 +46,9 @@ body{
 /* END NAVBAR 1 FRETE GRATIS */
 
 /* NAVBAR 2 PRODUTO */
+.second-nav{
+   box-shadow: 2px 1px 1px #00000029;
+}
 .second-nav .navbar-brand{
    padding: 7px 0 12px 25px;
    position: absolute;
@@ -83,129 +86,3 @@ body{
    margin: 10px
 }
 /* END NAVBAR 2 FRETE GRATIS */
-
-
-
-.title-section {
-   display: flex;
-   flex-direction: column;
-   text-align: center;
-   align-items: center;
-   justify-content: center;
-}
-.title {
-   line-height: 20px;
-}
-.title h3 {
-   font-weight: 350;
-   text-align: center;
-   color: #2d1f00;
-   font-size: 44px;
-   opacity: 1;
-}
-.title p {
-   font-size: 19px;
-   color: #2d1f00;
-}
-
-.container {
-   display: flex;
-   margin-top: 150px;
-}
-
-.content {
-   display: flex;
-   flex: 1;
-   align-items: center;
-}
-
-.content .nav-item {
-   display: flex;
-   padding: 10px 0 10px;
-   align-items: center;
-}
-
-.content .nav-item img {
-   width: 20px;
-   height: 20px;
-   margin-right: 10px;
-}
-.content .nav-item a {
-   text-decoration: none;
-   color: #414141;
-}
-
-.content .nav-item p {
-   color: #414141;
-}
-
-.content-perfil {
-   display: flex;
-   align-items: center;
-   width: 40%;
-}
-
-.content-password {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   width: 100%;
-}
-.content-password .third-column {
-   display: flex;
-   flex-direction: column;
-}
-.perfil-columns {
-   width: 100%;
-   margin-left: 10%;
-   height: 204px;
-}
-
-.Title-content-perfil {
-   display: flex;
-   justify-content: space-around;
-}
-
-.column .frist-column {
-   display: flex;
-   flex-direction: column;
-}
-.second-column {
-   padding-left: 8px;
-   display: flex;
-   flex-direction: row;
-}
-.column .grow {
-   display: flex;
-   flex-direction: column;
-}
-
-.column .grow input {
-   width: 80%;
-}
-
-.inputGROW {
-   padding: 5px 5px 5px 5px;
-   width: 215px;
-   height: 30px;
-   border: 1px solid #d3d3d3;
-   border-radius: 7px;
-   opacity: 1;
-}
-label {
-   margin-top: 5px;
-}
-
-.uptade-button {
-   font-weight: bold;
-   font-size: 15px;
-   justify-content: center;
-   margin-top: 50px;
-   color: #ffff;
-   width: 150px;
-   height: 40px;
-}
-
-.alterar {
-   display: flex;
-}

@@ -1,0 +1,60 @@
+.hero{
+    text-align: center;
+    color: #2D1F00 !important;
+}
+.hero h1{
+    font-size: 33px;
+    font-weight: 200;
+}
+.hero h2{
+    font-size: 19px;
+    font-weight: 200;
+}
+
+.cards{
+    margin-top: 50px !important;
+    width: 85%;
+}
+
+.cards .card{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 2px 2px 8px #00000029;
+    padding: 30px;
+    margin-bottom: 60px;
+}
+
+
+.cards .card .menu li{
+    padding: 10px 0 10px 0;
+    display: flex;
+    width: 100%;
+}
+.cards .card .menu li img{
+    padding: 0px 15px 0 0;
+    height: 20px;
+}
+.cards .card .menu li a{
+    text-align: left;
+    text-decoration: none;
+    color: #8E979F !important; 
+    font-size: 16px;
+    letter-spacing: 0px;
+    word-wrap: break-word;
+    overflow: auto;
+}
+.cards .card .menu li .selected{
+    text-decoration: none;
+    color: #000 !important; 
+    font-size: 16px;
+}
+
+.cards .title{
+    color: #414141 !important;
+    font-size: 17px !important;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+}
+.cards .title img{
+    padding: 0 5px;
+}
