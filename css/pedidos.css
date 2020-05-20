@@ -1,0 +1,5 @@
+.cards .title{
+    white-space: nowrap;
+    width: 200%;
+    justify-content :baseline;
+}

@@ -18,12 +18,12 @@
     margin-bottom: 0px !important;
 }
 
-
 .cards .card2{
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 2px 2px 5px #00000029;
     padding: 20px;
     margin-bottom: 40px;
+    border-radius: 5px;
 }
 .cards .card2 .column{
     padding: 0;
@@ -84,6 +84,8 @@
     width: 75px;
     height: 25px;
     font-size: 9px;
+    font-weight: 100;
+    cursor: pointer;
 }
 
 .pagination{
@@ -99,4 +101,7 @@
     border-radius: 4px;
     margin: 4px;
     padding: 3px;
+    text-decoration: none;
+    color: #000;
 }
+
