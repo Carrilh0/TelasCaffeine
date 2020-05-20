@@ -9,11 +9,61 @@
     color: #8E979F;
 }
 
-.cards .card .content-bottom{
-    box-shadow: 1px 1px 10px #000;
+.cards .card-auxiliar .status{
+    display: block;
+    border-radius: 40px;
+    margin: 25% auto;
+}
+.cards .card-auxiliar .nao-visualizado{
+    width: 10px;
+    height: 10px;
+    background-color: #E84323;
+}
+.cards .card-auxiliar .visualizado{
+    background-image: url('../img/assets/Grupo\ 181.png');
+    width: 20px;
+    height: 10px;
+
 }
 
-.cards .card{
-    box-shadow: 2px 0px 4px #00000029;
-    margin-bottom: 0px !important;
+.cards .card-auxiliar .foto{
+    width: 49px;
+    height: 49px;
+    max-width: 49px;
+    max-height: 49px;
+    overflow: hidden;
+    border-radius: 40px;
+    display: block;
+    border: 1px solid #000;
+    padding: 0;
+}
+
+.cards .card-auxiliar .content{
+    padding-left: 30px;
+
+}
+.cards .card-auxiliar .content h4{
+    font-size: 16px;
+    font-weight: 300;
+    color: #414141;
+}
+.cards .card-auxiliar .content p{
+    font-size: 15px;
+    font-weight: 100;
+    color: #8E979F;
+}
+.cards .card-auxiliar .icone img{
+    position: absolute;
+    right: 60px;
+    transform: translateY(15px);
+}
+.cards .card-auxiliar .button-download{
+    position: absolute;
+    right: 120px;
+    transform: translateY(12px);
+    width: 75px;
+    height: 25px;
+    font-size: 9px;
+    font-weight: 100;
+    cursor: pointer;
 }

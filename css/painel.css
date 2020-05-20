@@ -16,11 +16,14 @@
     width: 85%;
 }
 
+.box-card{
+    margin-bottom: 40px;
+}
+
 .cards .card{
     background: #FFFFFF 0% 0% no-repeat padding-box;
-    box-shadow: 2px 2px 8px #00000029;
-    padding: 15px;
-    margin-bottom: 40px;
+    box-shadow: 0px 0px 5px #00000029;
+    padding: 20px 40px;
     border-radius: 5px;
 }
 
@@ -112,74 +115,15 @@
 }
 
 /* CARD 2 É O "COMPLEMENTO" COMO SE FOSSE APENAS UM CARD, O DETALHE DAS PÁGINAS FEED E FAVORITOS */
-.cards .card2{
+.cards .card-auxiliar {
     background: #FFFFFF 0% 0% no-repeat padding-box;
-    box-shadow: 2px 2px 5px #00000029;
-    padding: 20px;
-    margin-bottom: 40px;
+    box-shadow: 0px 0px 5px #00000029;
+    padding: 40px;
     border-radius: 5px;
 }
-.cards .card2 .column{
+.cards .card-auxiliar .column{
     padding: 0;
     display: flex;
-}
-.cards .card2 .status{
-    display: block;
-    border-radius: 40px;
-    margin: 25% auto;
-}
-.cards .card2 .nao-visualizado{
-    width: 10px;
-    height: 10px;
-    background-color: #E84323;
-}
-.cards .card2 .visualizado{
-    background-image: url('../img/assets/Grupo\ 181.png');
-    width: 20px;
-    height: 10px;
-
-}
-
-.cards .card2 .foto{
-    width: 49px;
-    height: 49px;
-    max-width: 49px;
-    max-height: 49px;
-    overflow: hidden;
-    border-radius: 40px;
-    display: block;
-    border: 1px solid #000;
-    padding: 0;
-}
-
-.cards .card2 .content{
-    padding-left: 30px;
-
-}
-.cards .card2 .content h4{
-    font-size: 16px;
-    font-weight: 300;
-    color: #414141;
-}
-.cards .card2 .content p{
-    font-size: 15px;
-    font-weight: 100;
-    color: #8E979F;
-}
-.cards .card2 .icone img{
-    position: absolute;
-    right: 60px;
-    transform: translateY(15px);
-}
-.cards .card2 .button-download{
-    position: absolute;
-    right: 120px;
-    transform: translateY(12px);
-    width: 75px;
-    height: 25px;
-    font-size: 9px;
-    font-weight: 100;
-    cursor: pointer;
 }
 
 /* FIM CARD 2 */
@@ -203,7 +147,3 @@
 
 
 
-/* Fix title serve para alinha o card caso a grid não tenha um titulo */
-.fix-title{
-    margin-top: 40px;
-}
