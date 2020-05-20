@@ -1,5 +1,66 @@
-.cards .title{
-    white-space: nowrap;
-    width: 200%;
-    justify-content :baseline;
+.cards .card{
+    box-shadow: 2px 0px 4px #00000029;
+    margin-bottom: 0px !important;
+}
+.cards .card .content{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 15px ;
+}
+.cards .card .content .imagem{
+    width: 95px ;
+    height: 105px ;
+}
+.cards .card .content .info{
+    padding: 5px 15px;
+
+}
+.cards .card .content .info h4{
+    font-size: 19px;
+    font-weight: 100;
+    letter-spacing: 0px;
+    color: #414141;
+
+}
+.cards .card .content .info p{
+    font-size: 14px;
+    font-weight: Bold;
+
+
+}
+.cards .card .content .info span{
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.cards .card-auxiliar{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px ;
+}
+.cards .card-auxiliar .quantidade p{
+    font-weight: bold;
+    font-size: 14px;
+}
+.cards .card-auxiliar .quantidade span{
+    display: inline-block;
+    padding: 5px;
+    font-weight: 500;
+    border: 1px solid #D3D3D3;
+    border-radius: 4px;
+    margin-left: 10px
+    
+}
+.cards .card-auxiliar .valor p::before{
+    content: url("../img/assets/Valor.png");
+    position: relative;
+    top: 5px;
+    right: 15px;
+}
+.cards .card-auxiliar .valor p{
+    padding-top: 5px;
+    font-size: 16px;
+}
+.cards .card-auxiliar .valor span{
+    font-size: 12px;
 }
