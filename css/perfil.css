@@ -1,3 +1,8 @@
 .cards .card p{
     white-space: nowrap;
 }
+
+.btn{
+    float: right;
+    margin-top: 10px;
+}

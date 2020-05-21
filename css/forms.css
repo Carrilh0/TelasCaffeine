@@ -22,7 +22,6 @@
 
 .cards .card .btn{
     display: flex;
-    align-items: flex-end;
 }
 .cards .card .btn button{
     width: 100px;
