@@ -1,0 +1,110 @@
+
+/* FORMS */
+
+.box-card .deletar{
+    text-align: right;
+    padding-bottom: 10px;
+}
+.box-card .deletar a{
+   color: #00B359;
+   border-bottom: 1px solid #00B359;
+   font-size: 12px;
+   user-select: none;
+
+}
+
+
+.cards .card .check{
+    display: flex;
+    margin: 5px 5px 5px 0;
+    align-items:center ;
+}
+
+.cards .card .btn{
+    display: flex;
+    align-items: flex-end;
+}
+.cards .card .btn button{
+    width: 100px;
+    font-weight: 100;
+}
+.box-card .add{
+    float: right;
+    margin-top: 10px;
+}
+
+.box-card .add button{
+    color: #000;
+    border: 1px solid #000;
+    width: 23px;
+    height: 23px;
+    text-align: center;
+    padding: 0;
+    border-radius: 4px;
+    font-size: 15px;
+    user-select: none;
+    background-color: #fff;
+}
+.box-card .add button:active{
+    background-color: #00B359;
+    color:white;
+    border: none;
+}
+
+
+.cards .card input {
+    width: 100%;
+    text-align: center;
+    border: 1px solid #D3D3D3;
+    border-radius: 4px;
+    text-align: left;
+    color: #888888;
+    padding: 0 2px;
+    height: 22px;
+
+}
+
+.cards .card select{
+    width: 100%;
+    text-align: center;
+    border: 1px solid #D3D3D3;
+    border-radius: 4px;
+    text-align: left;
+    color: #888888;
+    padding: 0 2px;
+    height: 22px;
+}
+.cards .card input[type="checkbox"]{
+    min-width: 13.46px ;
+    min-height: 13.46px ;
+    width: 13.46px ;
+    height: 13.46px ;
+    margin-right: 5px;
+}
+
+
+.cards .card select:focus{
+    outline: none !important;
+    border: 1px solid #08CB69;
+    box-shadow: 0px 0px 4px #08CB6980;
+}
+.cards .card input:focus{
+    outline: none !important;
+    border: 1px solid #08CB69;
+    box-shadow: 0px 0px 4px #08CB6980;
+}
+
+
+.cards button{
+    text-align: center;
+    background-color: #00B359;
+    border-radius: 4px;
+    color: white;
+    width: 100%;
+    height: 28px ;
+    border: 0;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* END FORMS */

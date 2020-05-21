@@ -8,7 +8,7 @@
     <link href="../css/bulma.css" rel="stylesheet" />
     <link href="../css/navbars.css" rel="stylesheet" />
     <link href="../css/painel.css" rel="stylesheet" />
-    <link href="../css/comunicacao.css" rel="stylesheet" />
+    <link href="../css/forms.css" rel="stylesheet" />
     <title>Document</title>
 </head>
 
@@ -145,13 +145,63 @@
             </div>
             <div class="column is-9">
                 <div class="title">
-                    <img src="../img/assets/Endereço de Entrega.png">
+                    <img src="../img/assets/Entrega.png">
                     <h3 class="has-text-weight-bold">
                         Endereço de Entrega
                     </h3>
                 </div>
                 <div class="box-card">
-                   
+                    <div class="deletar">
+                        <a>Deletar</a>
+                    </div>
+                    <div class="card">
+                        <form>
+                            <div class="columns">
+                                <div class="column is-4">
+                                    <p>Nome do Destinatário *</p>
+                                    <input type="text">
+                                    <div class="check">
+                                        <input type="checkbox">
+                                        <p>Definir como endereço padrão *</p>
+                                    </div>
+                                </div>
+                                <div class="column is-2">
+                                    <p>Tipo de Endereço *</p>
+                                    <select>
+                                        <option>1</option>
+                                    </select>
+                                </div>
+                                <div class="column is-2">
+                                    <p>Cep *</p>
+                                    <input type="text">
+                                </div>
+                                <div class="column is-4">
+                                    <p>Endereço *</p>
+                                    <input type="text">
+                                </div>
+                            </div>
+                            <div class="columns">
+                                <div class="column is-4 btn">
+                                    <button>Salvar</button>
+                                </div>
+                                <div class="column is-2">
+                                    <p>Número *</p>
+                                    <input>
+                                </div>
+                                <div class="column is-2">
+                                    <p>Complemento *</p>
+                                    <input type="text">
+                                </div>
+                                <div class="column is-4">
+                                    <p>Informações de Referência *</p>
+                                    <input type="text">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="add">
+                        <button>+</button>
+                    </div>
                 </div>
             </div>
 
