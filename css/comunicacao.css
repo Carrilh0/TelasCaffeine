@@ -1,0 +1,26 @@
+.box-card .content{
+    display: flex;
+    width: 420px;
+}
+.box-card .content .check{
+    padding: 5px 20px 5px 5px;
+}
+.box-card .content .texts{
+    display: flex;
+    flex-direction: column;
+}
+.box-card .content .texts h4{
+    margin: 0;
+    font-size: 16px;
+}
+.box-card .content .texts p{
+    margin: 0;
+    font-size: 12px;
+    color: #888888;
+}
+.box-card button{
+    width: 101px;
+    height: 28px;
+    font-size: 11px;
+    padding: 5px
+}
