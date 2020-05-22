@@ -1,8 +1,116 @@
+@font-face {
+    font-family: Nexa heavy;
+    src: url("fonts/Nexa\ Heavy.otf") format("opentype");
+}
+@font-face {
+    font-family: Nexa light;
+    src: url("fonts/Nexa\ Light.otf") format("opentype");
+}
+
 .cards .card p{
     white-space: nowrap;
 }
+.cards .card .resumo{
+    display: flex;
+    margin-bottom: 40px;
+}
+.cards .card .resumo:last-child{
+    display: flex;
+    margin-bottom: 0px;
+}
+.cards .card .resumo img{
+    margin: 5px 15px 0 0;
+}
+.cards .card .resumo h4{
+    font-family: "Nexa Heavy";
+    font-size: 14px;
+}
+.cards .card .resumo p{
+    font-family: "Nexa Light";
+    font-size: 10px ;
+}
+
 
 .btn{
     float: right;
     margin-top: 10px;
 }
+
+.cards .card .resumo:last-child{
+    margin-bottom: 0px;
+}
+
+.cards .card .resumo-icon{
+    margin-bottom: 55px;
+    width: 20px;
+    height: 20px;
+    border-radius: 40px;
+    border: 1px solid #888888;
+    display: flex;
+    justify-content: left;
+    transform: translateX(-10px)
+}
+
+/* Linha verde abaixo até a metade */
+.cards .card .resumo-icon::after{
+    content: url("../img/assets/Grupo\ 515.png");
+    position: absolute;
+    top: 17.5px;
+    left: 8.8px;
+}
+
+/* Botão verde de ativo */
+
+.cards .card .active{
+    background-image: url("../img/assets/Grupo\ 930.png");
+    background-size: cover;
+    background-position: top 0% left 0%;
+    width: 26px;
+    height: 26px;
+    border: none;
+    position: relative;
+    right: 2px;
+    transform: translateX(-11.4px)
+}
+
+/* Linha verde abaixo pela metade */
+
+.cards .card .active::after{
+    background-image: url("../img/assets/Linha\ 1.png");
+    position: absolute;
+    height: 30px;
+    top: 26px;
+    left: 13px;
+}
+
+/* Linha verde acima, comepletando a metade de baixo */
+
+.cards .card .active::before{
+    content: url("../img/assets/Linha\ 1.png");
+    position: absolute;
+    top: -57px;
+    left: 13px;
+}
+
+/* Caso seja o primeiro, linha acima é removida*/
+
+.cards .card .active:first-child::before{
+    content:'';
+}
+
+/* Linha abaixo é removida do ultimo */
+.cards .card .resumo-icon:last-child::after{
+    content: '';
+}
+/* mergem é removida do ultimo */
+.cards .card .resumo-icon:last-child{
+    margin-bottom: 0px;
+}
+
+.inative h4,p{
+    color: #8E979F !important;
+}
+.inative img{
+    filter: contrast(0%) 
+}
+
